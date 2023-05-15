@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url('./hero.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;  
+}
+
+.box1{
+    background-color: white;
+    height: 17rem;
+    width: 39rem;
+    display: grid;
+    place-items: center;
+    gap: 0px;
+    border-radius: 10px;
+}
+
+.box2{
+    background-color: white;
+    height: 17rem;
+    width: 39rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fa-xmark{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: rgba(255, 0, 0, 0.7);
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+.fa-xmark:hover{
+    color: rgba(255, 0, 0, 1);
+    transform: scale(1.2);
+}
+
+.heading{
+    font-size: 4rem;
+    letter-spacing: 5px;
+    font-weight: 800;
+    color: rgb(94, 9, 61);
+}
+
+.heading2{
+    font-size: 4rem;
+    letter-spacing: 5px;
+    font-weight: 800;
+    color: rgb(94, 9, 61);
+}
+
+.btn{
+    border: 2px solid rgba(54, 54, 211, 0);
+    background-color: rgba(54, 54, 211, 0.4);
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+}
+
+.btn:hover{
+    border: 2px solid rgba(54, 54, 211, 0.4);
+    background-color: white;
+    color: rgba(54, 54, 211, 0.4);
+}
+
+.hidden{
+    display: none;
+}
