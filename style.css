@@ -9,6 +9,7 @@ body{
     background-image: url('./hero.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     
 }
 
@@ -104,4 +105,15 @@ body{
 
 .hidden{
     display: none;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(176, 176, 233, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
